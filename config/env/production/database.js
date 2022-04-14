@@ -1,4 +1,4 @@
-    const parse = require('mysql-parse').parse;
+    const parse = require("mysql-parse").parse;
     const config = parse(process.env.JAWSDB_URL);
     module.exports = ({ env }) => ({
         connection: {
