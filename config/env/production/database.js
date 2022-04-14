@@ -1,5 +1,6 @@
 
-    const config = parse(process.env.DATABASE_URL_PRO);
+   const parse = require('mysql-parse').parse;
+   const config = parse(process.env.DATABASE_URL_PRO);
     module.exports = ({ env }) => ({
       connection: {
         client: 'mysql',
