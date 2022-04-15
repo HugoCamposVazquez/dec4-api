@@ -10,10 +10,10 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.0.7",
-    "@strapi/plugin-users-permissions": "4.0.7",
+    "@strapi/plugin-i18n": "4.1.8",
+    "@strapi/plugin-users-permissions": "4.1.8",
     "@strapi/provider-upload-cloudinary": "^4.0.7",
-    "@strapi/strapi": "4.0.7",
+    "@strapi/strapi": "4.1.8",
     "mysql": "^2.18.1",
     "mysql-parse": "^2.0.8",
     "pg": "8.6.0"
